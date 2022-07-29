@@ -5,5 +5,5 @@
 - use the agent in tomcat with catalina opts `set CATALINA_OPTS=-javaagent:C:\Agents\skywalking-agent.jar`
 - or java opts `JAVA_OPTS=%JAVA_OPTS% -javaagent:C:\Agents\skywalking-agent.jar`
 
-- run the containers with `docker-compose up -d`
+- start the containers with `docker-compose up -d`
 - stop the containers with `docker-compose down`
