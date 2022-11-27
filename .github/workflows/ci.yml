@@ -39,5 +39,5 @@ jobs:
         
       # Test the stack
       - name: Test the stack
-        run: docker run --network container:ui appropriate/curl -s --retry 10 --retry-connrefused http://ui:8081/
+        run: docker run --network apache-skywalking_default appropriate/curl -s --retry 10 --retry-connrefused http://ui:8081/
         
