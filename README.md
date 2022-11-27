@@ -1,5 +1,6 @@
 # Install Apache Skywalking Backend + UI / Apache Skywalking Agent 
 
+[![CI](https://github.com/concosminx/apache-skywalking-dc/actions/workflows/ci.yml/badge.svg)](https://github.com/concosminx/apache-skywalking-dc/actions/workflows/ci.yml)
 
 ## Apache Skywalking Backend + UI
 
