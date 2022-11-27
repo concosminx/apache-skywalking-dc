@@ -38,6 +38,6 @@ jobs:
         run: docker-compose up -d
         
       # Test the stack
-      - name: Test the stack
-        run: docker run --network apache-skywalking-dc_default appropriate/curl -s --retry 10 --retry-connrefused http://ui:8081/
+#       - name: Test the stack
+#         run: docker run --network apache-skywalking-dc_default appropriate/curl -s --retry 10 --retry-connrefused http://ui:8081/
         
